@@ -1,0 +1,23 @@
+DIAGRAMA GENERAL - JUEGO DEL AHORCADO
+
+1. Inicio
+2. Seleccionar palabra aleatoria
+3. Inicializar:
+   - intentos = 6
+   - letras_correctas = vacío
+   - letras_incorrectas = vacío
+4. Mientras intentos > 0:
+   4.1 Mostrar palabra con guiones
+   4.2 Mostrar letras incorrectas
+   4.3 Pedir letra al usuario
+   4.4 Validar que sea una sola letra
+       - Si no es válida → volver a pedir
+   4.5 Verificar si la letra ya fue usada
+       - Si ya fue usada → volver a pedir
+   4.6 ¿La letra está en la palabra?
+       - Sí → agregar a letras_correctas
+       - No → agregar a letras_incorrectas y restar intento
+   4.7 Verificar si todas las letras fueron adivinadas
+       - Si sí → Mostrar "Ganaste" y terminar
+5. Si se acaban los intentos → Mostrar "Perdiste"
+6. Fin
