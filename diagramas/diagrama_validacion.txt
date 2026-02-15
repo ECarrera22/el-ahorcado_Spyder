@@ -1,0 +1,16 @@
+DIAGRAMA DE VALIDACIÓN DE LETRA - JUEGO DEL AHORCADO
+
+1. Usuario ingresa una letra
+2. ¿La entrada tiene solo un carácter?
+   - No → Mostrar "Entrada inválida" y volver a pedir
+   - Sí → continuar
+3. ¿La entrada es una letra del alfabeto?
+   - No → Mostrar "Entrada inválida" y volver a pedir
+   - Sí → continuar
+4. ¿La letra ya fue usada?
+   - Sí → Mostrar "Ya usaste esa letra" y volver a pedir
+   - No → continuar
+5. ¿La letra está en la palabra?
+   - Sí → Agregar a letras_correctas
+   - No → Agregar a letras_incorrectas y restar intento
+6. Fin de la jugada
